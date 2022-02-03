@@ -1,0 +1,18 @@
+{
+  "name": "psp-pertanian-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "tailwindcss -i ./tailwind.css -o ./app.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.4.0",
+    "daisyui": "^1.25.4"
+  }
+}
