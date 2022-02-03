@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "dev": "tailwindcss -i ./tailwind.css -o ./app.css --watch"
+    "dev": "tailwindcss -i ./tailwind.css -o ./app.css --watch",
+    "build": "set NODE_ENV=production && tailwindcss -i ./tailwind.css -o ./app.css --minify"
   },
   "author": "",
   "license": "ISC",

@@ -52,8 +52,8 @@
 
 	<!-- navigation  -->
 	<nav class="flex justify-between bg-secondary py-4 px-8 font-semibold text-gray-600">
-		<a href="#">Beranda</a>
-		<a href="#">Tentang Kami</a>
+		<a href="#" class="hover:text-white transition-colors duration-300">Beranda</a>
+		<a href="#" class="hover:text-white transition-colors duration-300">Tentang Kami</a>
 		<div class="dropdown dropdown-hover">
 			<div tabindex="aplikasi">Aplikasi <i class="fas fa-angle-down ml-1"></i></div>
 			<div tabindex="aplikasi" class="dropdown-content shadow-xl card compact bg-white py-2 w-[800px] grid grid-cols-4 gap-4">
@@ -87,16 +87,67 @@
 				</section>
 			</div>
 		</div>
-		<a href="#">Pedoman</a><div class="dropdown dropdown-hover">
+		<a href="#" class="hover:text-white transition-colors duration-300">Pedoman</a>
+		<div class="dropdown dropdown-hover">
 			<div tabindex="berita-acara">Berita & Acara <i class="fas fa-angle-down ml-1"></i></div>
 			<div tabindex="berita-acara" class="dropdown-content shadow-xl card compact bg-white py-2 w-full">
 				<a href="#" class="block py-2 px-4 hover:bg-gray-200">Berita</a>
 				<a href="#" class="block py-2 px-4 hover:bg-gray-200">Acara</a>
 			</div>
-		</div><div class="dropdown dropdown-hover">
+		</div>
+		<div class="dropdown dropdown-hover">
 			<div tabindex="informasi-publik">Informasi Publik <i class="fas fa-angle-down ml-1"></i></div>
-			<div tabindex="informasi-publik" class="dropdown-content shadow-xl card compact bg-white py-2 w-full">
-				<a href="#" class="block py-2 px-4 hover:bg-gray-200">PDIP</a>
+			<div tabindex="informasi-publik" class="dropdown-content shadow-xl card compact bg-white py-2 w-72">
+				<a href="#" class="block py-2 px-4 hover:bg-gray-200">PPID - PSP</a>
+				<div class="collapse collapse-arrow hover:bg-gray-100">
+					<input type="checkbox">
+					<div class="collapse-title px-4">LHKASN / LHKPN</div>
+					<div class="collapse-content">
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">LHKASN</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">LHKPN</a>
+					</div>
+				</div>
+				<a href="#" class="block py-2 px-4 hover:bg-gray-200">Arsip Surat</a>
+				<a href="#" class="block py-2 px-4 hover:bg-gray-200">Daftar Informasi Publik</a>
+				<div class="collapse collapse-arrow hover:bg-gray-100">
+					<input type="checkbox">
+					<div class="collapse-title px-4">Layanan Publik</div>
+					<div class="collapse-content">
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">Pendaftaran AUTP dan AUTS/K</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">Pendaftaran Pestisida</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">Pendaftaran Pupuk</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">Pupuk Bersubsidi</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">Sertifikasi ALSINTAN</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">SOP Pelayanan ALSINTAN</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">Prosedur Memperoleh Informasi Publik</a>
+					</div>
+				</div>
+				<div class="collapse collapse-arrow hover:bg-gray-100">
+					<input type="checkbox">
+					<div class="collapse-title px-4">Regulasi</div>
+					<div class="collapse-content">
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">Peraturan</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">Perjanjian / Kerjasama</a>
+					</div>
+				</div>
+				<a href="#" class="block py-2 px-4 hover:bg-gray-200">Laporan Kinerja</a>
+				<div class="collapse collapse-arrow hover:bg-gray-100">
+					<input type="checkbox">
+					<div class="collapse-title px-4">Laporan Kinerja</div>
+					<div class="collapse-content">
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">Aset Unit Kerja</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">DIPA</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">LAKIP</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">Laporan Keuangan Audit</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">Laporan Tahunan</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">RENJA / RKT</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">RENSTRA</a>
+						<a href="#" class="block py-2 px-4 hover:bg-gray-200">RKA-KL</a>
+					</div>
+				</div>
+				<a href="#" class="block py-2 px-4 hover:bg-gray-200">Statistik</a>
+				<a href="#" class="block py-2 px-4 hover:bg-gray-200">Tata Cara Pengaduan Penyalahgunaan Wewenang</a>
+				<a href="#" class="block py-2 px-4 hover:bg-gray-200">Data Pegawai</a>
 			</div>
 		</div>
 		<div class="dropdown dropdown-hover">
@@ -106,8 +157,8 @@
 				<a href="#" class="block py-2 px-4 w-full hover:bg-gray-200">Prosedur Evakuasi</a>
 			</div>
 		</div>
-		<a href="#">Hubungan Kami</a>
-		<a href="#">FAQ</a>
+		<a href="#" class="hover:text-white transition-colors duration-300">Hubungan Kami</a>
+		<a href="#" class="hover:text-white transition-colors duration-300">FAQ</a>
 	</nav>
 
 	<!-- header with slider -->
@@ -507,48 +558,48 @@
 		<h3 class="text-center text-2xl font-bold text-gray-600 mb-6">APLIKASI PSP KEMENTAN RI</h3>
 		<p class="w-1/2 text-center text-lg mx-auto mb-12">Aplikasi seputar aktivitas dan kegiatan Direktorat Jendral Prasarana dan Sarana Pertanian Kementerian Pertanian Republik Indonesia</p>
 
-		<ul class="grid lg:grid-cols-4 gap-10">
-			<li class="bg-white shadow-lg rounded-xl p-4">
+		<div class="grid lg:grid-cols-4 gap-10">
+			<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 				<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 				<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 				<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-			</li>
-			<li class="bg-white shadow-lg rounded-xl p-4">
+			</a>
+			<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 				<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 				<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 				<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-			</li>
-			<li class="bg-white shadow-lg rounded-xl p-4">
+			</a>
+			<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 				<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 				<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 				<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-			</li>
-			<li class="bg-white shadow-lg rounded-xl p-4">
+			</a>
+			<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 				<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 				<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 				<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-			</li>
-			<li class="bg-white shadow-lg rounded-xl p-4">
+			</a>
+			<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 				<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 				<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 				<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-			</li>
-			<li class="bg-white shadow-lg rounded-xl p-4">
+			</a>
+			<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 				<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 				<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 				<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-			</li>
-			<li class="bg-white shadow-lg rounded-xl p-4">
+			</a>
+			<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 				<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 				<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 				<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-			</li>
-			<li class="bg-white shadow-lg rounded-xl p-4">
+			</a>
+			<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 				<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 				<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 				<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-			</li>
-		</ul>
+			</a>
+		</div>
 	</section>
 
 	<!-- aplikasi terkait psp -->
@@ -557,48 +608,48 @@
 			<h3 class="text-center text-2xl font-bold text-gray-600 mb-6">APLIKASI TERKAIT PSP KEMENTAN RI</h3>
 			<p class="w-1/2 text-center text-lg mx-auto mb-12">Aplikasi seputar aktivitas dan kegiatan Direktorat Jendral Prasarana dan Sarana Pertanian Kementerian Pertanian Republik Indonesia</p>
 
-			<ul class="grid lg:grid-cols-4 gap-10">
-				<li class="bg-white shadow-lg rounded-xl p-4">
+			<div class="grid lg:grid-cols-4 gap-10">
+				<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 					<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 					<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 					<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-				</li>
-				<li class="bg-white shadow-lg rounded-xl p-4">
+				</a>
+				<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 					<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 					<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 					<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-				</li>
-				<li class="bg-white shadow-lg rounded-xl p-4">
+				</a>
+				<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 					<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 					<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 					<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-				</li>
-				<li class="bg-white shadow-lg rounded-xl p-4">
+				</a>
+				<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 					<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 					<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 					<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-				</li>
-				<li class="bg-white shadow-lg rounded-xl p-4">
+				</a>
+				<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 					<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 					<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 					<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-				</li>
-				<li class="bg-white shadow-lg rounded-xl p-4">
+				</a>
+				<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 					<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 					<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 					<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-				</li>
-				<li class="bg-white shadow-lg rounded-xl p-4">
+				</a>
+				<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 					<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 					<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 					<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-				</li>
-				<li class="bg-white shadow-lg rounded-xl p-4">
+				</a>
+				<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
 					<img src="/assets/app-1.png" class="w-full h-auto mb-12">
 					<h4 class="text-center text-xl font-semibold mb-4">SIKOMANTAP</h4>
 					<p class="text-center mx-auto text-lg">Sistem Informasi Rekomendasi dan Pemantauan Penetapan LP2B (SIKOMANTAP)</p>
-				</li>
-			</ul>
+				</a>
+			</div>
 		</div>
 	</section>
 
@@ -733,6 +784,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/color-calendar/dist/bundle.js"></script>
 	<script>
 		new Splide('#header', {
+			type: 'fade',
 			rewind: true,
 			heightRatio: 0.4,
 			autoplay: true,
@@ -755,6 +807,7 @@
 		}).mount();
 
 		new Splide('#goverment', {
+			type: 'fade',
 			rewind: true,
 			heightRatio: 0.7,
 			autoplay: true,
