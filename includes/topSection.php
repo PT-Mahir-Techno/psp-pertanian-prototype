@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="lib/splide/css/splide-core.min.css">
 	<link rel="stylesheet" href="lib/splide/css/themes/splide-default.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/color-calendar/dist/css/theme-basic.css" />
-	<link rel="stylesheet" href="app.css">
+	<link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>

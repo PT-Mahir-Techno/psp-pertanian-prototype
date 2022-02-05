@@ -1,11 +1,9 @@
 {
   "name": "psp-pertanian-prototype",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
   "scripts": {
-    "dev": "tailwindcss -i ./tailwind.css -o ./app.css --watch",
-    "build": "set NODE_ENV=production && tailwindcss -i ./tailwind.css -o ./app.css --minify"
+    "dev": "tailwindcss -i ./css/tailwind.css -o ./css/app.css --watch",
+    "build": "set NODE_ENV=production && tailwindcss -i ./css/tailwind.css -o ./css/app.css --minify"
   },
   "author": "",
   "license": "ISC",
