@@ -4,51 +4,17 @@
 <header id="header" class="relative">
 	<div class="splide__track">
 		<ul class="splide__list">
-			<li class="splide__slide">
-				<div class="relative w-full h-full">
-					<img src="https://picsum.photos/1024/768" class="object-cover w-full h-full">
-					<div class="absolute inset-0 flex flex-col justify-end items-start p-16 bg-gradient-to-t from-black">
-						<h2 class="text-white text-4xl font-bold w-2/3 leading-snug mb-6">PSP Kementan: Harga Eceran Tertinggi (HET) Pupuk Bersubsidi</h2>
-						<a href="#" class="btn btn-primary">Selengkapnya</a>
+			<?php foreach (range(0, 5) as $i) { ?>
+				<li class="splide__slide">
+					<div class="relative w-full h-full">
+						<img src="https://picsum.photos/1024/768" class="object-cover w-full h-full">
+						<div class="absolute inset-0 flex flex-col justify-end items-start lg:py-16 lg:px-16 py-12 px-8 bg-gradient-to-t from-black">
+							<h2 class="text-white lg:text-left text-center lg:text-4xl text-xl font-bold lg:w-2/3 leading-snug mb-6">PSP Kementan: Harga Eceran Tertinggi (HET) Pupuk Bersubsidi</h2>
+							<a href="#" class="btn btn-primary lg:m-0 mx-auto">Selengkapnya</a>
+						</div>
 					</div>
-				</div>
-			</li>
-			<li class="splide__slide">
-				<div class="relative w-full h-full">
-					<img src="https://picsum.photos/1024/768" class="object-cover w-full h-full">
-					<div class="absolute inset-0 flex flex-col justify-end items-start p-16 bg-gradient-to-t from-black">
-						<h2 class="text-white text-4xl font-bold w-2/3 leading-snug mb-6">PSP Kementan: Harga Eceran Tertinggi (HET) Pupuk Bersubsidi</h2>
-						<a href="#" class="btn btn-primary">Selengkapnya</a>
-					</div>
-				</div>
-			</li>
-			<li class="splide__slide">
-				<div class="relative w-full h-full">
-					<img src="https://picsum.photos/1024/768" class="object-cover w-full h-full">
-					<div class="absolute inset-0 flex flex-col justify-end items-start p-16 bg-gradient-to-t from-black">
-						<h2 class="text-white text-4xl font-bold w-2/3 leading-snug mb-6">PSP Kementan: Harga Eceran Tertinggi (HET) Pupuk Bersubsidi</h2>
-						<a href="#" class="btn btn-primary">Selengkapnya</a>
-					</div>
-				</div>
-			</li>
-			<li class="splide__slide">
-				<div class="relative w-full h-full">
-					<img src="https://picsum.photos/1024/768" class="object-cover w-full h-full">
-					<div class="absolute inset-0 flex flex-col justify-end items-start p-16 bg-gradient-to-t from-black">
-						<h2 class="text-white text-4xl font-bold w-2/3 leading-snug mb-6">PSP Kementan: Harga Eceran Tertinggi (HET) Pupuk Bersubsidi</h2>
-						<a href="#" class="btn btn-primary">Selengkapnya</a>
-					</div>
-				</div>
-			</li>
-			<li class="splide__slide">
-				<div class="relative w-full h-full">
-					<img src="https://picsum.photos/1024/768" class="object-cover w-full h-full">
-					<div class="absolute inset-0 flex flex-col justify-end items-start p-16 bg-gradient-to-t from-black">
-						<h2 class="text-white text-4xl font-bold w-2/3 leading-snug mb-6">PSP Kementan: Harga Eceran Tertinggi (HET) Pupuk Bersubsidi</h2>
-						<a href="#" class="btn btn-primary">Selengkapnya</a>
-					</div>
-				</div>
-			</li>
+				</li>
+			<?php } ?>
 		</ul>
 	</div>
 </header>
@@ -56,26 +22,20 @@
 <!-- main section -->
 <section class="container py-16 space-y-16">
 	<!-- latest news -->
-	<section class="bg-base-content rounded-xl flex items-center shadow-md">
-		<span class="bg-primary rounded-xl py-4 px-6 font-bold text-white mr-8">Berita&nbsp;Terkini</span>
-		<div id="latest-news" class="flex flex-grow overflow-hidden relative">
+	<section class="bg-base-content rounded-xl flex lg:flex-row flex-col items-center shadow-md relative">
+		<span class="absolute -top-5 left-0 shadow lg:static bg-primary lg:rounded-xl rounded-lg lg:py-4 lg:px-6 py-1 px-4 font-bold text-white lg:text-base text-sm lg:mr-8">
+			Berita&nbsp;Terkini
+		</span>
+		<div id="latest-news" class="flex flex-grow overflow-hidden relative lg:p-0 p-4 w-full lg:w-auto">
 			<div class="splide__track w-5/6">
 				<ul class="splide__list">
-					<li class="splide__slide">
-						<h3 class="font-semi-bold font-semi-bold truncate">
-							Alokasi dan Harga Eceran Tertinggi Pupuk Bersubsidi Sektor Alokasi dan Harga Eceran Tertinggi Pupuk Bersubsidi Sektor Alokasi dan Harga Eceran Tertinggi Pupuk Bersubsidi Sektor
-						</h3>
-					</li>
-					<li class="splide__slide">
-						<h3 class="font-semi-bold font-semi-bold truncate">
-							Alokasi dan Harga Eceran Tertinggi Pupuk Bersubsidi Sektor Alokasi dan Harga Eceran Tertinggi Pupuk Bersubsidi Sektor Alokasi dan Harga Eceran Tertinggi Pupuk Bersubsidi Sektor
-						</h3>
-					</li>
-					<li class="splide__slide">
-						<h3 class="font-semi-bold font-semi-bold truncate">
-							Alokasi dan Harga Eceran Tertinggi Pupuk Bersubsidi Sektor Alokasi dan Harga Eceran Tertinggi Pupuk Bersubsidi Sektor Alokasi dan Harga Eceran Tertinggi Pupuk Bersubsidi Sektor
-						</h3>
-					</li>
+					<?php foreach (range(0, 5) as $i) { ?>
+						<li class="splide__slide">
+							<h3 class="font-semi-bold font-semi-bold truncate text-sm">
+								Alokasi dan Harga Eceran Tertinggi Pupuk Bersubsidi Sektor Alokasi dan Harga Eceran Tertinggi Pupuk Bersubsidi Sektor Alokasi dan Harga Eceran Tertinggi Pupuk Bersubsidi Sektor
+							</h3>
+						</li>
+					<?php } ?>
 				</ul>
 			</div>
 		</div>
@@ -88,48 +48,23 @@
 			<section id="goverment" class="bg-base-content rounded-xl shadow-lg relative">
 				<div class="splide__track">
 					<ul class="splide__list">
-						<li class="splide__slide">
-							<article class="p-16 flex flex-col justify-between relative h-full">
-								<div class="w-2/3">
-									<h2 class="text-4xl text-sky-700 font-semibold">IR. ALI JAMIL, MP, PH.D</h2>
-									<p class="text-2xl mt-2">Direktur Jenderal Prasarana dan Sarana Pertanian Kementerian Pertanian</p>
-								</div>
-								<div class="w-1/2">
-									<p class="text-xl leading-relaxed font-semibold">Tugas Ditjen PSP Kementan</p>
-									<p class="text-xl leading-relaxed mb-6">Menyelenggarakan perumusan dan pelaksanaan kebijakan penyediaan prasarana dan sarana di bidang pertanian</p>
-									<a href="#" class="btn btn-primary">Selengkapnya</a>
-								</div>
-								<img src="/assets/govt-1.png" alt="Dirjen PSP Ali Jamil" class="absolute right-0 bottom-0 w-1/2">
-							</article>
-						</li>
-						<li class="splide__slide">
-							<article class="p-16 flex flex-col justify-between relative h-full">
-								<div class="w-2/3">
-									<h2 class="text-4xl text-sky-700 font-semibold">IR. ALI JAMIL, MP, PH.D</h2>
-									<p class="text-2xl mt-2">Direktur Jenderal Prasarana dan Sarana Pertanian Kementerian Pertanian</p>
-								</div>
-								<div class="w-1/2">
-									<p class="text-xl leading-relaxed font-semibold">Tugas Ditjen PSP Kementan</p>
-									<p class="text-xl leading-relaxed mb-6">Menyelenggarakan perumusan dan pelaksanaan kebijakan penyediaan prasarana dan sarana di bidang pertanian</p>
-									<a href="#" class="btn btn-primary">Selengkapnya</a>
-								</div>
-								<img src="/assets/govt-1.png" alt="Dirjen PSP Ali Jamil" class="absolute right-0 bottom-0 w-1/2">
-							</article>
-						</li>
-						<li class="splide__slide">
-							<article class="p-16 flex flex-col justify-between relative h-full">
-								<div class="w-2/3">
-									<h2 class="text-4xl text-sky-700 font-semibold">IR. ALI JAMIL, MP, PH.D</h2>
-									<p class="text-2xl mt-2">Direktur Jenderal Prasarana dan Sarana Pertanian Kementerian Pertanian</p>
-								</div>
-								<div class="w-1/2">
-									<p class="text-xl leading-relaxed font-semibold">Tugas Ditjen PSP Kementan</p>
-									<p class="text-xl leading-relaxed mb-6">Menyelenggarakan perumusan dan pelaksanaan kebijakan penyediaan prasarana dan sarana di bidang pertanian</p>
-									<a href="#" class="btn btn-primary">Selengkapnya</a>
-								</div>
-								<img src="/assets/govt-1.png" alt="Dirjen PSP Ali Jamil" class="absolute right-0 bottom-0 w-1/2">
-							</article>
-						</li>
+						<?php foreach (range(0, 5) as $i) { ?>
+							<li class="splide__slide">
+								<article class="lg:p-16 p-4 flex flex-col justify-between relative h-full">
+									<div class="lg:w-2/3">
+										<h2 class="lg:text-4xl lg:text-left text-center text-sky-700 font-semibold">IR. ALI JAMIL, MP, PH.D</h2>
+										<p class="lg:text-2xl lg:text-left text-center text-sm mt-2">Direktur Jenderal Prasarana dan Sarana Pertanian Kementerian Pertanian</p>
+									</div>
+									<div class="lg:w-1/2 w-7/12">
+										<p class="lg:text-xl text-sm leading-relaxed font-semibold">Tugas Ditjen PSP Kementan</p>
+										<p class="lg:text-xl text-sm lg:leading-relaxed lg:mb-6 mb-3">Menyelenggarakan perumusan dan pelaksanaan kebijakan penyediaan prasarana dan sarana di bidang pertanian</p>
+										<a href="#" class="lg:hidden inline-flex btn btn-primary btn-sm mb-4">Selengkapnya</a>
+										<a href="#" class="lg:inline-flex hidden btn btn-primary">Selengkapnya</a>
+									</div>
+									<img src="/assets/govt-1.png" alt="Dirjen PSP Ali Jamil" class="absolute right-0 bottom-0 w-1/2">
+								</article>
+							</li>
+						<?php } ?>
 					</ul>
 				</div>
 			</section>
@@ -142,71 +77,31 @@
 					</div>
 				</header>
 
-				<article class="flex space-x-8">
-					<a href="#" class="w-5/12">
-						<img src="https://picsum.photos/400" class="max-w-full w-full aspect-video object-cover rounded-lg">
-					</a>
-					<div class="w-7/12">
-						<div class="flex space-x-6 items-center mb-4">
-							<a href="#" class="btn btn-primary btn-sm">Pupuk</a>
-							<time datetime="2022-04-24" class="text-sm text-gray-500">
-								<i class="fas fa-calendar-alt text-primary mr-2"></i>2022-04-24
-							</time>
-							<p class="text-sm text-gray-500">
-								<i class="fas fa-user-alt text-primary mr-2"></i>Ahmad
-							</p>
-						</div>
-
-						<a href="#" class="hover:text-primary">
-							<h2 class="font-semibold text-lg leading-relaxed mb-2">Harga Pupuk Naik, Pemerintah Berikan Akan Jaminan</h2>
-							<p class="leading-relaxed">Berdasarkan data Ditjen PSP Kementan RI, kebutuhan pupuk untuk petani mencapai 22,57 - 26,18 juta ton atau senilai Rp 63-65 triliun dalam lima ...</p>
+				<?php foreach (range(0, 2) as $i) { ?>
+					<article class="lg:flex lg:space-x-8 space-y-6">
+						<a href="#" class="lg:w-5/12">
+							<img src="https://picsum.photos/400" class="max-w-full w-full aspect-video object-cover rounded-lg">
 						</a>
-					</div>
-				</article>
-				<article class="flex space-x-8">
-					<a href="#" class="w-5/12">
-						<img src="https://picsum.photos/400" class="max-w-full w-full aspect-video object-cover rounded-lg">
-					</a>
-					<div class="w-7/12">
-						<div class="flex space-x-6 items-center mb-4">
-							<a href="#" class="btn btn-primary btn-sm">Pupuk</a>
-							<time datetime="2022-04-24" class="text-sm text-gray-500">
-								<i class="fas fa-calendar-alt text-primary mr-2"></i>2022-04-24
-							</time>
-							<p class="text-sm text-gray-500">
-								<i class="fas fa-user-alt text-primary mr-2"></i>Ahmad
-							</p>
+						<div class="lg:w-7/12">
+							<div class="flex space-x-6 items-center mb-4">
+								<a href="#" class="btn btn-primary btn-sm">Pupuk</a>
+								<time datetime="2022-04-24" class="text-sm text-gray-500">
+									<i class="fas fa-calendar-alt text-primary mr-2"></i>2022-04-24
+								</time>
+								<p class="text-sm text-gray-500">
+									<i class="fas fa-user-alt text-primary mr-2"></i>Ahmad
+								</p>
+							</div>
+
+							<a href="#" class="hover:text-primary">
+								<h2 class="font-semibold text-lg leading-relaxed mb-2">Harga Pupuk Naik, Pemerintah Berikan Akan Jaminan</h2>
+								<p class="leading-relaxed">Berdasarkan data Ditjen PSP Kementan RI, kebutuhan pupuk untuk petani mencapai 22,57 - 26,18 juta ton atau senilai Rp 63-65 triliun dalam lima ...</p>
+							</a>
 						</div>
+					</article>
+				<?php } ?>
 
-						<a href="#" class="hover:text-primary">
-							<h2 class="font-semibold text-lg leading-relaxed mb-2">Harga Pupuk Naik, Pemerintah Berikan Akan Jaminan</h2>
-							<p class="leading-relaxed">Berdasarkan data Ditjen PSP Kementan RI, kebutuhan pupuk untuk petani mencapai 22,57 - 26,18 juta ton atau senilai Rp 63-65 triliun dalam lima ...</p>
-						</a>
-					</div>
-				</article>
-				<article class="flex space-x-8">
-					<a href="#" class="w-5/12">
-						<img src="https://picsum.photos/400" class="max-w-full w-full aspect-video object-cover rounded-lg">
-					</a>
-					<div class="w-7/12">
-						<div class="flex space-x-6 items-center mb-4">
-							<a href="#" class="btn btn-primary btn-sm">Pupuk</a>
-							<time datetime="2022-04-24" class="text-sm text-gray-500">
-								<i class="fas fa-calendar-alt text-primary mr-2"></i>2022-04-24
-							</time>
-							<p class="text-sm text-gray-500">
-								<i class="fas fa-user-alt text-primary mr-2"></i>Ahmad
-							</p>
-						</div>
-
-						<a href="#" class="hover:text-primary">
-							<h2 class="font-semibold text-lg leading-relaxed mb-2">Harga Pupuk Naik, Pemerintah Berikan Akan Jaminan</h2>
-							<p class="leading-relaxed">Berdasarkan data Ditjen PSP Kementan RI, kebutuhan pupuk untuk petani mencapai 22,57 - 26,18 juta ton atau senilai Rp 63-65 triliun dalam lima ...</p>
-						</a>
-					</div>
-				</article>
-
-				<a href="#" class="btn btn-primary btn-outline">
+				<a href="#" class="btn btn-primary btn-outline w-full lg:w-auto">
 					<i class="fas fa-angle-double-right mr-2"></i> Lihat Berita Selengkapnya
 				</a>
 			</section>
@@ -287,8 +182,10 @@
 <!-- events -->
 <section class="bg-base-content py-16">
 	<div class="container">
-		<h3 class="text-center text-2xl font-bold text-gray-600 mb-6">ACARA PSP KEMENTAN RI</h3>
-		<p class="w-1/2 text-center text-lg mx-auto mb-16">Informasi seputar Acara dan kegiatan di Direktorat Jendral Prasarana dan Sarana Pertanian Kementerian Pertanian Republik Indonesia</p>
+		<h3 class="text-center text-2xl font-bold text-gray-600 lg:mb-6 mb-4">ACARA PSP KEMENTAN RI</h3>
+		<p class="lg:w-1/2 text-center lg:text-lg mx-auto lg:mb-16 mb-10 leading-relaxed">
+			Informasi seputar Acara dan kegiatan di Direktorat Jendral Prasarana dan Sarana Pertanian Kementerian Pertanian Republik Indonesia
+		</p>
 
 		<div id="events" class="relative mb-14">
 			<div class="splide__track">
@@ -386,7 +283,7 @@
 		</div>
 
 		<div class="flex justify-center">
-			<a href="#" class="btn btn-primary btn-outline">
+			<a href="#" class="btn btn-primary btn-outline w-full lg:w-auto">
 				<i class="fas fa-angle-double-right mr-2"></i> Lihat Seluruh Acara
 			</a>
 		</div>
@@ -396,7 +293,7 @@
 <!-- aplikasi psp -->
 <section class="py-16 container">
 	<h3 class="text-center text-2xl font-bold text-gray-600 mb-6">APLIKASI PSP KEMENTAN RI</h3>
-	<p class="w-1/2 text-center text-lg mx-auto mb-12">Aplikasi seputar aktivitas dan kegiatan Direktorat Jendral Prasarana dan Sarana Pertanian Kementerian Pertanian Republik Indonesia</p>
+	<p class="lg:w-1/2 text-center text-lg mx-auto mb-12 leading-relaxed">Aplikasi seputar aktivitas dan kegiatan Direktorat Jendral Prasarana dan Sarana Pertanian Kementerian Pertanian Republik Indonesia</p>
 
 	<div class="grid lg:grid-cols-4 gap-10">
 		<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">
@@ -446,7 +343,7 @@
 <section class="py-16 bg-base-content">
 	<div class="container">
 		<h3 class="text-center text-2xl font-bold text-gray-600 mb-6">APLIKASI TERKAIT PSP KEMENTAN RI</h3>
-		<p class="w-1/2 text-center text-lg mx-auto mb-12">Aplikasi seputar aktivitas dan kegiatan Direktorat Jendral Prasarana dan Sarana Pertanian Kementerian Pertanian Republik Indonesia</p>
+		<p class="lg:w-1/2 text-center text-lg mx-auto mb-12 leading-relaxed">Aplikasi seputar aktivitas dan kegiatan Direktorat Jendral Prasarana dan Sarana Pertanian Kementerian Pertanian Republik Indonesia</p>
 
 		<div class="grid lg:grid-cols-4 gap-10">
 			<a href="#" class="bg-white shadow-lg rounded-xl p-4 hover:shadow-xl hover:scale-105 transition-transform">

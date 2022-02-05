@@ -172,6 +172,12 @@
 				classes: {
 					arrow: 'splide__arrow bg-gray-500/25',
 					page: 'splide__pagination__page bg-gray-500/50'
+				},
+				breakpoints: {
+					768: {
+						heightRatio: 1.25,
+						arrows: false
+					}
 				}
 			}).mount();
 
@@ -182,7 +188,7 @@
 				pagination: false,
 				classes: {
 					arrows: 'splide__arrows mt-2',
-					prev: 'splide__arrow--prev left-auto right-0 mr-12',
+					prev: 'splide__arrow--prev left-auto right-0 lg:mr-12 mr-8',
 				},
 			}).mount();
 
@@ -195,6 +201,12 @@
 				classes: {
 					arrow: 'splide__arrow bg-gray-500/25',
 					page: 'splide__pagination__page bg-gray-500/50'
+				},
+				breakpoints: {
+					768: {
+						heightRatio: 0.95,
+						arrows: false
+					}
 				}
 			}).mount();
 
@@ -207,10 +219,16 @@
 				perMove: 1,
 				classes: {
 					arrow: 'splide__arrow bg-gray-500/25',
-					prev: 'splide__arrow--prev -ml-16',
-					next: 'splide__arrow--next -mr-16',
+					prev: 'splide__arrow--prev lg:-ml-16',
+					next: 'splide__arrow--next lg:-mr-16',
 					pagination: 'splide__pagination -mb-10',
 					page: 'splide__pagination__page bg-gray-500/50'
+				},
+				breakpoints: {
+					768: {
+						perPage: 1,
+						// gap: '0.75rem',
+					}
 				}
 			}).mount();
 

@@ -46,8 +46,8 @@
 				</div>
 			</section>
 
-			<!-- logo -->
-			<section class="bg-base-content py-4 lg:px-8 px-4 sticky lg:static top-0 z-30 shadow-lg lg:shadow-none">
+			<!-- logo & mobile sticky header -->
+			<section class="bg-base-content py-4 lg:px-8 px-4 sticky lg:static top-0 z-[999] shadow-lg lg:shadow-none">
 				<div class="relative lg:block flex items-center justify-between">
 					<img class="lg:block hidden" src="./assets/logo-psp-1.png">
 					<div class="lg:hidden flex space-x-2">
@@ -58,7 +58,10 @@
 						</div>
 					</div>
 					<div class="flex items-center justify-between space-x-4">
-						<button class="rounded-full bg-blue-900 border border-white lg:w-8 lg:h-8 w-6 h-6 flex justify-center items-center lg:absolute lg:right-0 lg:top-0">
+						<button class="
+							rounded-full bg-blue-900 border border-white w-6 h-6 flex justify-center items-center
+							lg:absolute lg:right-0 lg:top-0 lg:w-8 lg:h-8
+						">
 							<i class="fas fa-blind fa-fw text-white lg:text-base text-xs"></i>
 						</button>
 
