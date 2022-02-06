@@ -53,7 +53,7 @@
 					<div class="lg:hidden flex space-x-2">
 						<img class="w-10" src="./assets/logo-sticky.png">
 						<div>
-							<h1 class="font-bold text-sm">DIREKTORAT JENDERAL</h1>
+							<h2 class="font-bold text-sm">DIREKTORAT JENDERAL</h2>
 							<h2 class="font-semibold text-xs">PRASARANA & SARANA PERTANIAN</h2>
 						</div>
 					</div>

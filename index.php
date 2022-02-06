@@ -1,4 +1,4 @@
-<?php include './includes/topSection.php' ?>
+<?php include './includes/top-section.php' ?>
 
 <!-- header with slider -->
 <header id="header" class="relative">
@@ -459,4 +459,4 @@
 	</div>
 </section>
 
-<?php include './includes/bottomSection.php' ?>
+<?php include './includes/bottom-section.php' ?>
