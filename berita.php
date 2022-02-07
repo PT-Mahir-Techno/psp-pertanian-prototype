@@ -35,6 +35,7 @@
 		</section>
 
 		<section class="grid lg:grid-cols-7 gap-16">
+			<!-- berita -->
 			<main class="lg:col-span-5 space-y-12">
 				<header class="bg-base-gray rounded-lg shadow-md overflow-hidden">
 					<div class="border-l-8 border-primary px-6 py-4">
@@ -65,7 +66,18 @@
 						</div>
 					</article>
 				<?php } ?>
+
+				<div class="btn-group justify-center">
+					<button class="btn btn-outline border-gray-200">Previous</button>
+					<button class="btn btn-active">1</button>
+					<button class="btn btn-outline border-gray-200">2</button>
+					<button class="btn btn-outline border-gray-200">3</button>
+					<button class="btn btn-outline border-gray-200">4</button>
+					<button class="btn btn-outline border-gray-200">Next</button>
+				</div>
 			</main>
+
+			<!-- Kategori -->
 			<aside class="lg:col-span-2 space-y-12">
 				<header class="bg-base-gray rounded-lg shadow-md overflow-hidden">
 					<div class="border-l-8 border-primary px-6 py-4">
