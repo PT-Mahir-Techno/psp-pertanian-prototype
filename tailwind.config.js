@@ -12,7 +12,19 @@ module.exports = {
 				xl: '2rem',
 				'2xl': '3rem',
 			},
-		}
+		},
+		extend: {
+			colors: {
+				'base-gray': '#EFF0F6'
+			},
+			typography: {
+				DEFAULT: {
+					css: {
+						maxWidth: null,
+					},
+				},
+			},
+		},
 	},
 	plugins: [
 		require('@tailwindcss/forms'),
@@ -38,7 +50,7 @@ module.exports = {
 					"base-100": "#ffffff",
 					"base-200": "#f9fafb",
 					"base-300": "#d1d5db",
-					"base-content": "#EFF0F6",
+					"base-content": "#1f2937",
 					"info": "#2094f3",
 					"success": "#009485",
 					"warning": "#ff9900",

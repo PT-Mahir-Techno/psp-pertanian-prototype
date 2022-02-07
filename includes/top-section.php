@@ -2,19 +2,7 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>PSP Pertanian Prototype</title>
-	<!-- jangan lupa untuk hosting semua assets dan libs ke server -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-	<link rel="stylesheet" href="lib/splide/css/splide-core.min.css">
-	<link rel="stylesheet" href="lib/splide/css/themes/splide-default.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/color-calendar/dist/css/theme-basic.css" />
-	<link rel="stylesheet" href="css/app.css">
+
 </head>
 
 <body>
@@ -30,24 +18,24 @@
 					<i class="fas fa-angle-down"></i>
 				</div>
 
-				<div class="lg:flex lg:space-x-8 items-center">
-					<div class="flex space-x-4">
+				<div class="lg:flex lg:space-x-8 items-center" x-data="{showSearch: false}" x-cloak>
+					<div class="flex space-x-4" x-show="!showSearch">
 						<a href="#"><i class="text-lg fab fa-instagram"></i></a>
 						<a href="#"><i class="text-lg fab fa-youtube"></i></a>
 						<a href="#"><i class="text-lg fab fa-twitter"></i></a>
 						<a href="#"><i class="text-lg fab fa-facebook"></i></a>
-						<a href="#" class="lg:hidden"><i class="text-lg fas fa-search"></i></a>
+						<a class="lg:hidden" @click="showSearch = true"><i class="text-lg fas fa-search"></i></a>
 					</div>
 
-					<div class="bg-base-content rounded px-2 lg:block hidden">
-						<input type="text" class="border-0 p-1 bg-transparent" placeholder="Cari ...">
+					<div class="bg-base-gray rounded px-2" :class="{'lg:block hidden': !showSearch}">
+						<input type="text" class="border-0 p-1 bg-transparent" placeholder="Cari ..." @blur="showSearch = false">
 						<button><i class="fas fa-search"></i></button>
 					</div>
 				</div>
 			</section>
 
 			<!-- logo & mobile sticky header -->
-			<section class="bg-base-content py-4 lg:px-8 px-4 sticky lg:static top-0 z-[999] shadow-lg lg:shadow-none">
+			<section class="bg-base-gray py-4 lg:px-8 px-4 sticky lg:static top-0 z-[999] shadow-lg lg:shadow-none">
 				<div class="relative lg:block flex items-center justify-between">
 					<img class="lg:block hidden" src="./assets/logo-psp-1.png">
 					<div class="lg:hidden flex space-x-2">
