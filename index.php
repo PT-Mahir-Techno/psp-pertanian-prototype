@@ -402,7 +402,6 @@
 	<!-- gpr & social -->
 	<section class="container py-16">
 		<div class="grid lg:grid-cols-7 gap-16">
-
 			<!-- gpr -->
 			<section class="lg:col-span-5 space-y-8">
 				<header class="bg-base-gray rounded-lg shadow-md overflow-hidden">
@@ -487,7 +486,7 @@
 					arrows: false
 				}
 			}
-		}).mount();
+		}).mount()
 
 		new Splide('#latest-news', {
 			rewind: true,
@@ -498,7 +497,7 @@
 				arrows: 'splide__arrows mt-2',
 				prev: 'splide__arrow--prev left-auto right-0 lg:mr-12 mr-8',
 			},
-		}).mount();
+		}).mount()
 
 		new Splide('#goverment', {
 			type: 'fade',
@@ -516,7 +515,7 @@
 					arrows: false
 				}
 			}
-		}).mount();
+		}).mount()
 
 		new Splide('#events', {
 			type: 'loop',
@@ -538,7 +537,7 @@
 					// gap: '0.75rem',
 				}
 			}
-		}).mount();
+		}).mount()
 
 		new Calendar({
 			id: "#color-calendar",
@@ -548,7 +547,7 @@
 			fontFamilyBody: 'Source Sans Pro',
 			primaryColor: '#00A1D5',
 			headerColor: '#6b7280'
-		});
+		})
 	</script>
 </body>
 </html>
