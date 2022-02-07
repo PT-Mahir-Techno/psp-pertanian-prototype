@@ -47,8 +47,8 @@
 	<div class="drawer-side">
 		<label for="my-drawer" class="drawer-overlay"></label>
 		<ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
-			<li><a>Beranda</a></li>
-			<li><a>Tentang Kami</a></li>
+			<li><a href="/">Beranda</a></li>
+			<li><a href="/tentang-kami.php">Tentang Kami</a></li>
 			<li>
 				<div tabindex="0" class="collapse collapse-arrow">
 					<input type="checkbox">
