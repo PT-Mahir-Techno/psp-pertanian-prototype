@@ -2093,21 +2093,10 @@ body {
   box-shadow: 0 0 0 2px currentColor
 }
 
-.btn-ghost {
-  background-color: transparent;
-  border-color: transparent;
-  border-width: 1px;
-  color: currentColor
-}
-
 .btn-ghost.btn-active,.btn-ghost:hover {
   --tw-bg-opacity: 0.2;
   background-color: hsla(var(--bc) / var(--tw-bg-opacity, 1));
   --tw-border-opacity: 0
-}
-
-.btn-ghost:focus-visible {
-  box-shadow: 0 0 0 2px currentColor
 }
 
 .btn-link.btn-active,.btn-link:hover {
@@ -3076,6 +3065,14 @@ body {
   margin-bottom: 1rem
 }
 
+.mb-8 {
+  margin-bottom: 2rem
+}
+
+.mb-16 {
+  margin-bottom: 4rem
+}
+
 .mr-2 {
   margin-right: 0.5rem
 }
@@ -3114,14 +3111,6 @@ body {
 
 .-mb-10 {
   margin-bottom: -2.5rem
-}
-
-.mb-8 {
-  margin-bottom: 2rem
-}
-
-.mb-16 {
-  margin-bottom: 4rem
 }
 
 .mb-1 {
@@ -3248,10 +3237,6 @@ body {
   max-width: 100%
 }
 
-.max-w-xs {
-  max-width: 20rem
-}
-
 .flex-grow {
   flex-grow: 1
 }
@@ -3293,20 +3278,16 @@ body {
   gap: 2.5rem
 }
 
+.gap-4 {
+  gap: 1rem
+}
+
 .gap-16 {
   gap: 4rem
 }
 
 .gap-12 {
   gap: 3rem
-}
-
-.gap-4 {
-  gap: 1rem
-}
-
-.gap-8 {
-  gap: 2rem
 }
 
 .space-y-12 > :not([hidden]) ~ :not([hidden]) {
@@ -3369,6 +3350,10 @@ body {
   overflow: visible
 }
 
+.overflow-x-auto {
+  overflow-x: auto
+}
+
 .overflow-y-auto {
   overflow-y: auto
 }
@@ -3423,6 +3408,11 @@ body {
   border-right-width: 1px
 }
 
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity))
+}
+
 .border-primary {
   --tw-border-opacity: 1;
   border-color: hsla(var(--p) / var(--tw-border-opacity))
@@ -3436,11 +3426,6 @@ body {
 .border-gray-900 {
   --tw-border-opacity: 1;
   border-color: rgb(17 24 39 / var(--tw-border-opacity))
-}
-
-.border-gray-200 {
-  --tw-border-opacity: 1;
-  border-color: rgb(229 231 235 / var(--tw-border-opacity))
 }
 
 .\!border-white {
@@ -3576,16 +3561,6 @@ body {
   padding-bottom: 4rem
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem
@@ -3594,6 +3569,16 @@ body {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem
 }
 
 .py-12 {
@@ -3930,16 +3915,24 @@ body {
     width: 50%
   }
 
+  .lg\:w-3\/12 {
+    width: 25%
+  }
+
+  .lg\:w-9\/12 {
+    width: 75%
+  }
+
+  .lg\:w-auto {
+    width: auto
+  }
+
   .lg\:w-5\/12 {
     width: 41.666667%
   }
 
   .lg\:w-7\/12 {
     width: 58.333333%
-  }
-
-  .lg\:w-auto {
-    width: auto
   }
 
   .lg\:w-2\/3 {
@@ -3950,16 +3943,12 @@ body {
     width: 2rem
   }
 
-  .lg\:w-3\/12 {
-    width: 25%
-  }
-
-  .lg\:w-9\/12 {
-    width: 75%
-  }
-
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr))
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr))
   }
 
   .lg\:grid-cols-7 {
@@ -3968,10 +3957,6 @@ body {
 
   .lg\:grid-cols-9 {
     grid-template-columns: repeat(9, minmax(0, 1fr))
-  }
-
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr))
   }
 
   .lg\:flex-row {
@@ -4037,14 +4022,14 @@ body {
     text-align: left
   }
 
-  .lg\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem
-  }
-
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem
   }
 
   .lg\:text-2xl {
